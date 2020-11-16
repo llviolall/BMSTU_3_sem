@@ -1,8 +1,17 @@
 # frozen_string_literal: true
-#test
-# 
+
 require_relative 'labs5b'
 
-strclient.each do |line|
-  puts correct_str(line.chomp)
+array = Array[]
+puts 'Введите слово-заменитель'
+key = gets.chomp
+puts 'Введите строку'
+str = gets.chomp
+array = str.split
+
+puts "\n \tИзначальные строки: "
+puts str
+puts "\n \tОтформатированные строки: "
+(0..array.length - 1).each do |i|
+  print "#{correct_str(array[i], key)} "
 end
