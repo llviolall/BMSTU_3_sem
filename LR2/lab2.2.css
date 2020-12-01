@@ -1,0 +1,40 @@
+body {
+	font-family: Arial;
+	background: url(cat2.jpg);
+	color: black;
+	text-align: center;
+	font-size: 15px;
+	min-width: 800px;
+}
+
+h1 {
+	color: rgb(251, 211, 0);
+}
+
+div {
+	vertical-align: top;
+}
+
+div.tdt {
+	width: 100px;
+	border: 1px solid;
+	display: inline-block;
+	height: 40px;
+	background-color: white;
+}
+
+div.tda {
+	width: 300px;
+	border: 1px solid;
+	display: inline-block;
+	height: 40px;
+	background-color: white;
+}
+
+div.tdaa {
+	width: 606px;
+	border: 1px solid;
+	display: inline-block;
+	height: 40px;
+	background-color: white;
+}

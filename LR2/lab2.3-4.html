@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICS6 Bootstrap</title>
+    <link href="http://e-learning.bmstu.ru/moodle/pluginfile.php/7546/mod_folder/content/0/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="lab2.3-4.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark my-primary"> <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src=" http://e-learning.bmstu.ru/moodle/pluginfile.php/7546/mod_folder/content/0/avatar.jpg" alt="avatar" width="150" height="150">
+            </div>
+            <div class="col-8">
+                <h1>Лабораторная работа №2.3-4</h1>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="row">
+            <div class="col-4">
+                <h6>Онлайн-регистрация на рейсы</h6>
+                <form>
+                    <table id="tble">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="sel">
+                                        <select name="airlines">
+                                            <option>Выберите</option>
+                                            <option>S7 Airlines</option>
+                                            <option>Royal Flight</option>
+                                            <option>Аэрофлот</option>
+                                            <option>Уральские авиалинии</option>
+                                            <option>Utair</option>
+                                            <option>Azur Air</option>
+                                            <option>Red Wings</option>
+                                            <option>Россия</option>
+                                            <option>Победила</option>
+                                            <option>Pegas Fly (Икар)</option>
+                                            <option>Nordwind Airlines</option>
+                                            <option>Азимут</option>
+                                            <option>Turkish Airlines</option>
+                                            <option>Ямал</option>
+                                            <option>Якутия</option>
+                                            <option>Nordstar</option>
+                                            <option>РусЛайн</option>
+                                            <option>Lufthansa</option>
+                                            <option>Алроса</option>
+                                            <option>Emirates</option>
+                                        </select>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input autocomplete="off" required class="field" type="text" name="ticket" placeholder="Номер билета / брони"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input autocomplete="off" required class="field" type="text" name="username" placeholder="Фамилия, как на билете"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input autocomplete="off" required class="field" type="date" name="date" value="2020-09-22"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input autocomplete="off" required class="field" type="text" name="email" placeholder="Электронная почта"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input autocomplete="off" required class="field" type="password" name="password" placeholder="Пароль"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input id="reg" type="submit" value="Продолжить регистрацию"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+            <div class="col-4">
+                <table id="tbl">
+                    <caption>Расписание на вторник</caption>
+                    <tr class="st">
+                        <th class="time st">Время</th>
+                        <th class="day st">ЧС</th>
+                        <th class="day st">ЗН</th>
+                    </tr>
+                    <tr class="tdr">
+                        <td class="coll st">8:30-10:05</td>
+                        <td></td>
+                        <td rowspan="2" class="st">(лаб) Языки интернет-программирования Каф</td>
+                    </tr>
+                    <tr class="tdr">
+                        <td class="coll st">10:15-11:50</td>
+                        <td class="st">(сем) Электротехника</td>
+                    </tr>
+                    <tr class="tdr">
+                        <td class="coll st">12:00-13:35</td>
+                        <td colspan="2" class="st">(лек) Языки интернет-программирования 501ю Самарёв Р.С.</td>
+                    </tr>
+                    <tr class="st">
+                        <td class="coll st">13:50-15:25</td>
+                        <td colspan="2" class="st">(лек) Электротехника 501ю Скворцов С.П.</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col">
+                <h3>Цитаты и афоризмы про кошек</h3>
+                <br>
+                <p>В древности кошек почитали как божества; и <span class="color">они не забыли об этом.</span></p>
+                <p class="author">Терри Пратчетт</p>
+                <p><span class="b">Высшее предназначение</span> кошек — показать нам, что не все в природе имеет цель.</p>
+                <p class="author">Гаррисон Кейлор</p>
+                <p>Мурлыканье массажирует <span class="i">душу.</span>.</p>
+                <p class="author">Стюарт Макмиллан</p>
+                <p>Если бы кошачье мурлыканье продавалось в таблетках, фармацевтический рынок получил бы <span class="font">идеальное средство</span> против депрессии.</p>
+                <p class="author">Акксис Ф. Хоуп</p>
+                <p><span class="color">Кошки уверены</span>, что все живое существует только для их развлечения.</p>
+                <p class="author">Франсуа Огюстен Парадиз де Монкриф</p>
+                <p>Для кошки человек — всего лишь <span class="i">теплокровная</span> мебель.</p>
+                <p class="author">Жаклин Митчард</p>
+            </div>
+        </div>
+    </main>
+    <footer class="my-primary">
+        <div class="container">
+            <p class="footer-text">Footer</p>
+        </div>
+    </footer>
+</body>
+
+</html>

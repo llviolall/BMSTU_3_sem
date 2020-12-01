@@ -1,0 +1,132 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 40px;
+}
+
+main {
+    margin-top: 15px;
+}
+
+footer {
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.navbar {
+    color: black;
+}
+
+
+.my-primary {
+    background: url(cat3.jpg);
+    color: white;
+}
+
+#tble {
+    font-family: 'Light', Arial, sans-serif;
+    border-spacing: 8px;
+
+}
+
+.field {
+    background: rgba(97, 85, 85, 0.15);
+    width: 300px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#reg {
+    background: #ff8100;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0 5px 10px #0061ad94;
+    width: 300px;
+    cursor: pointer;
+}
+
+#reg:hover {
+    background: #ef7900;
+    box-shadow: -1px 3px 10px #0061ad94;
+}
+
+.sel {
+    padding-left: 30px;
+    background: url(icon-airlines.svg) no-repeat 8px;
+    background-color: rgba(97, 85, 85, 0.15);
+    padding: 10px 0 10px 35px;
+    border-radius: 10px;
+}
+
+select {
+    border: 0;
+    width: 255px;
+    font-size: 18px;
+}
+
+.row {
+    margin-top: 40px;
+}
+
+.st {
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#tbl {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.day {
+    width: 150px;
+    border: 1px solid black;
+}
+
+.time {
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.coll {
+    height: 40px;
+    border: 1px solid black;
+}
+
+.color {
+    color: rgb(209, 10, 152);
+}
+
+.b {
+    font-weight: bold;
+}
+
+.i {
+    font-style: italic;
+}
+
+.font {
+    font-family: fantasy;
+}
+
+.author {
+
+    text-align: right;
+    color: rgba(86, 77, 87);
+    font-weight: bold;
+}

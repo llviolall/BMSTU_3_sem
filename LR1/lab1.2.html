@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Лабораторная работа №1.2</title>
+	<style>
+		body {
+			min-width: 900px;
+			max-width: 900px;
+			margin: 0 auto 0;
+			display: flex;
+			flex-direction: column;
+		}
+		th {
+			vertical-align: middle;
+			text-align: center;
+			border:1px solid black;
+		}
+		td {
+			vertical-align: middle;
+			border:1px solid black;
+			text-align: center;
+		}
+		table {
+			border-collapse: collapse;
+			border:1px solid black;
+			width: 400px;
+		}
+		.group > div {
+			float: left;
+			width: 420px;
+			height: 260px;
+			margin-bottom: 10px;
+			margin-left: 20px;
+		}
+		h1{
+			margin-left: 30px;
+		}
+		.day {
+			width: 150px;
+		}
+		.time {
+			width: 100px;
+			height: 20px;
+		}
+		.col {
+			height: 40px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Расписание ИУ6-32Б</h1>
+	<div class="group">
+		<div>
+		<table>
+		<caption>Расписание на понедельник</caption>
+			<tr>
+				<th class="time">Время</th>
+				<th class="day">ЧС</th>
+				<th class="day">ЗН</th>
+			</tr>
+			<tr>
+				<td class="col">12:00-13:35</td>
+				<td colspan="2">(сем) Элективный курс по физической культуре и спорту Каф</td>
+			</tr>
+			<tr>
+				<td class="col">13:50-15:25</td>
+				<td></td>
+				<td>(сем) Базы данных 427ю Фомин М.М.</td>
+			</tr>
+			<tr>
+				<td class="col">15:40-17:15</td>
+				<td colspan="2">(лек) Физика 323</td>
+			</tr>
+			<tr>
+				<td class="col">17:25-19:00</td>
+				<td colspan="2">(лек) Базы данных 501ю Фомин М.М.</td>
+			</tr>
+		</table>
+		</div>
+
+		<div>
+		<table>
+			<caption>Расписание на вторник</caption>
+			<tr>
+				<th class="time">Время</th>
+				<th class="day">ЧС</th>
+				<th class="day">ЗН</th>
+			</tr>
+			<tr>
+				<td class="col">8:30-10:05</td>
+				<td></td>
+				<td rowspan="2">(лаб) Языки интернет-программирования Каф</td>
+			</tr>
+			<tr>
+				<td class="col">10:15-11:50</td>
+				<td>(сем) Электротехника</td>
+			</tr>
+			<tr>
+				<td class="col">12:00-13:35</td>
+				<td colspan="2">(лек) Языки интернет-программирования 501ю Самарёв Р.С.</td>
+			</tr>
+			<tr>
+				<td class="col">13:50-15:25</td>
+				<td colspan="2">(лек) Электротехника 501ю Скворцов С.П.</td>
+			</tr>
+		</table>
+		</div>
+	</div>
+
+	<div class="group">
+		<div>
+		<table>
+			<caption>Расписание на среду</caption>
+			<tr>
+				<th class="time">Время</th>
+				<th class="day">ЧС</th>
+				<th class="day">ЗН</th>
+			</tr>
+			<tr>
+				<td class="col">8:30-10:05</td>
+				<td colspan="2">(сем) Элективный курс по физической культуре и спорту Каф</td>
+			</tr>
+			<tr>
+				<td class="col">10:15-11:50</td>
+				<td>(лаб) Базы данных кк 501</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class="col">12:00-13:35</td>
+				<td>(сем) Языки интернет-программирования 384</td>
+				<td rowspan="2">(лаб) Физика Каф</td>
+			</tr>
+			<tr>
+				<td class="col">13:50-15:25</td>
+				<td>(сем) Физика 318</td>
+			</tr>
+		</table>
+		</div>
+
+		<div>
+		<table>
+			<caption>Расписание на четверг</caption>
+			<tr>
+				<th class="time">Время</th>
+				<th class="day">ЧС</th>
+				<th class="day">ЗН</th>
+			</tr>
+			<tr>
+				<td class="col">8:30-10:05</td>
+				<td colspan="2">(сем) Иностранный язык Каф</td>
+			</tr>
+			<tr>
+				<td class="col">10:15-11:50</td>
+				<td colspan="2">(сем) Теория вероятностей и математическая статистика 218л</td>
+			</tr>
+		</table>
+		</div>
+	</div>	
+
+	<div class="group">
+		<div>
+		<table>
+			<caption>Расписание на пятницу</caption>
+			<tr>
+				<th class="time">Время</th>
+				<th class="day">ЧС</th>
+				<th class="day">ЗН</th>
+			</tr>
+			<tr>
+				<td class="col">8:30-10:05</td>
+				<td>(лаб) Электротехника</td>
+				<td></td>
+			</tr>
+		</table>
+		</div>
+
+		<div>
+		<table>
+			<caption>Расписание на субботу</caption>
+			<tr>
+				<th class="time">Время</th>
+				<th class="day">ЧС</th>
+				<th class="day">ЗН</th>
+			</tr>
+			<tr>
+				<td class="col">12:00-13:35</td>
+				<td colspan="2">(сем) Правоведение 533л</td>
+			</tr>
+			<tr>
+				<td class="col">13:50-15:25</td>
+				<td>(лек) Правоведение 218л</td>
+				<td>(лек) Теория вероятностей и математическая статистика 218л</td>
+			</tr>
+			<tr>
+				<td class="col">15:40-17:15</td>
+				<td colspan="2">(сем) Теория вероятностей и математическая статистика 1015л</td>
+			</tr>
+		</table>
+		</div>
+	</div>		
+</body>
+</html>
