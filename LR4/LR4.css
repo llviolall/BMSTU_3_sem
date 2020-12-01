@@ -1,0 +1,79 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 600px;
+    text-align: center;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+body {
+    background: url("coffee.jpg");
+}
+
+#mainDiv {
+    font-size: 18px;
+    font-family: Courier New;
+    color: black;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px;
+    max-width: 630px;
+    min-width: 630px;
+}
+
+h3 {
+    color: saddlebrown;
+}
+
+#name, #price {
+    background: #fff;
+    width: 300px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+}
+
+#add, #count {
+    background: #DEB887;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0 2px 3px #0061ad94;
+    width: 300px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#add:hover, #count:hover {
+    background: #A0522D;
+    box-shadow: -1px 3px 10px #0061ad94;
+}
+
+.price:hover {
+    background: #DEB887;
+}
+
+.plus:hover {
+    background: #A0522D;
+}
+
+.tableTitle {
+    background: #FFDEAD;
+}
+
+#coll {
+    width: 150px;
+}

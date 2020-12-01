@@ -1,0 +1,54 @@
+body {
+    background: url("трава.jpg");
+}
+
+h1 {
+    font-family: Arial;
+    color: darkgreen;
+    text-align: center;
+}
+
+#mainDiv {
+    font-size: 18px;
+    font-family: Courier New;
+    color: black;
+    margin: 50px 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px;
+    max-width: 1100px;
+    min-width: 500px;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+h3 {
+    color: darkgreen;
+}
+
+#startButton {
+    background: olivedrab;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0 5px 10px #0061ad94;
+    width: 300px;
+    cursor: pointer;
+}
+
+#startButton:hover {
+    background: #ef7900;
+    box-shadow: -1px 3px 10px #0061ad94;
+}
+
+li {
+    margin: 15px 0px;
+}
