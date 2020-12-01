@@ -1,0 +1,107 @@
+Started GET "/" for ::1 at 2020-12-01 05:11:59 +0400
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/violakorabelnikova/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/violakorabelnikova/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 12.0ms | Allocations: 409)
+Completed 200 OK in 33ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 3316)
+
+
+Started GET "/" for ::1 at 2020-12-01 05:25:22 +0400
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PalindromeController#input as HTML
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 2.0ms | Allocations: 190)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/violakorabelnikova/railsTestingViola/LR8/labs8/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.2
+Time: 2759ms
+Built at: 2020-12-01 5:25:29
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 6480ms (Views: 6469.8ms | ActiveRecord: 0.0ms | Allocations: 19597)
+
+
+Started GET "/" for ::1 at 2020-12-01 05:28:59 +0400
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/palindrome/input" for ::1 at 2020-12-01 05:28:59 +0400
+Processing by PalindromeController#input as HTML
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 5.3ms | Allocations: 466)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 107ms (Views: 94.7ms | ActiveRecord: 0.0ms | Allocations: 7800)
+
+
+Started GET "/palindrome/view?num=343556&commit=Show+palindromes+from+1+to+num" for ::1 at 2020-12-01 05:29:43 +0400
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"343556", "commit"=>"Show palindromes from 1 to num"}
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 1.9ms | Allocations: 294)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 296ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 1038968)
+
+
+Started GET "/" for ::1 at 2020-12-01 06:20:09 +0400
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/palindrome/input" for ::1 at 2020-12-01 06:20:09 +0400
+Processing by PalindromeController#input as HTML
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 5.2ms | Allocations: 466)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 84ms (Views: 71.2ms | ActiveRecord: 0.0ms | Allocations: 7804)
+
+
+Started GET "/palindrome/view?num=777722&commit=Show+palindromes+from+1+to+num" for ::1 at 2020-12-01 06:20:24 +0400
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"777722", "commit"=>"Show palindromes from 1 to num"}
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 2.0ms | Allocations: 298)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 569ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 2342779)
+
+
+Started GET "/" for ::1 at 2020-12-01 06:22:14 +0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/palindrome/input" for ::1 at 2020-12-01 06:22:15 +0400
+Processing by PalindromeController#input as HTML
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 2.6ms | Allocations: 468)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 70ms (Views: 58.5ms | ActiveRecord: 0.0ms | Allocations: 7790)
+
+
+Started GET "/palindrome/view?num=377727&commit=Show+palindromes+from+1+to+num" for ::1 at 2020-12-01 06:22:21 +0400
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"377727", "commit"=>"Show palindromes from 1 to num"}
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 2.3ms | Allocations: 299)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 313ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 1141601)
+
+
+Started GET "/palindrome/input" for ::1 at 2020-12-01 06:22:31 +0400
+Processing by PalindromeController#input as HTML
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 170)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 3993)
+
+
+Started GET "/palindrome/view?num=90909&commit=Show+palindromes+from+1+to+num" for ::1 at 2020-12-01 06:22:34 +0400
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"90909", "commit"=>"Show palindromes from 1 to num"}
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 0.3ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 95ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 279702)
+
+

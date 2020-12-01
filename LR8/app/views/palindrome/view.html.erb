@@ -1,0 +1,13 @@
+<h1>Palindrome#view</h1>
+<p>Korabelnikova Violetta ICS6-32B</p>
+
+<p> Palindroms: </p>
+<table border="1px">
+  <% @result.each do |res| %>
+    <tr>
+      <td> <%= res.to_s %> </td>
+      <td> <%= res.to_s(2) %> </td>
+    </tr>
+  <% end %>
+</table>
+<%= link_to "Back to input", :palindrome_input %>

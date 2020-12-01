@@ -1,0 +1,8 @@
+<h1>Palindrome#input</h1>
+<p>Korabelnikova Violetta ICS6-32B</p>
+
+<%= form_tag('view', :method => "get") do %>
+  <%= label_tag("Input num = ") %>
+  <%= text_field_tag(:num,'', :maxlength => '6') %>  <br/>
+  <%= submit_tag("Show palindromes from 1 to num") %>
+<% end %>
