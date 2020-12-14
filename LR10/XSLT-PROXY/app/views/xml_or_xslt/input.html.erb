@@ -1,0 +1,19 @@
+<h1>XmlOrXslt#input</h1>
+<p>Программа, определяющаю все меньшие n (n ≤ 10<sup>6</sup>) натуральные числа, которые являются палиндромами как в десятичной, так и в двоичной системе.</p>
+
+<%= form_tag('/xml_or_xslt/view', :method => "get") do %>
+    <%= label_tag("Input num = ") %>
+    <%= text_field_tag(:num,'', :maxlength => '6', class: "num") %>  <br/>
+    <p>Выбор стороны рендеринга</p>
+    <div>
+      <input type="radio" id="Choice1" name="response" value="XML" checked>
+      <label for="Choice1">XML</label><br>
+
+      <input type="radio" id="Choice2" name="response" value="HTML">
+      <label for="Choice2">HTML</label><br>
+
+      <input type="radio" id="Choice3" name="response" value="XML+XSLT">
+      <label for="contactChoice3">XML+XSLT</label>
+    </div>
+    <%= submit_tag("Найти", class: "submit") %>
+<% end %>

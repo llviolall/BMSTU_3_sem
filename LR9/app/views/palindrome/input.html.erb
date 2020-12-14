@@ -1,0 +1,15 @@
+<h1>Palindrome#input</h1>
+
+<p>Программа, определяющаю все меньшие n (n ≤ 10<sup>6</sup>) натуральные числа, которые являются палиндромами как в десятичной, так и в двоичной системе.</p>
+<%= form_tag('view.json', :method => "get", remote: true, id: 'input_frm') do %>
+  <p> Введите граничное значение num: </p>
+  <%= label_tag("Значение num = ") %>
+<%= text_field_tag(:num,'', :maxlength => '6', :value => '1000', class: "num") %>  <br/>
+  <br>
+<%= submit_tag("Найти", class: "submit") %>
+<% end %>
+
+<div>
+	<p>Все найденные числа: </p>
+	<table border="1px" id="result"></table>
+</div>

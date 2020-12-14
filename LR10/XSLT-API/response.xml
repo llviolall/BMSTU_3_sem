@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform.xslt"?>
+<objects type="array">
+  <object>
+    <dec>1</dec>
+    <bin>1</bin>
+  </object>
+  <object>
+    <dec>3</dec>
+    <bin>11</bin>
+  </object>
+  <object>
+    <dec>5</dec>
+    <bin>101</bin>
+  </object>
+  <object>
+    <dec>7</dec>
+    <bin>111</bin>
+  </object>
+  <object>
+    <dec>9</dec>
+    <bin>1001</bin>
+  </object>
+  <object>
+    <dec>33</dec>
+    <bin>100001</bin>
+  </object>
+</objects>

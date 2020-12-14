@@ -1,0 +1,52 @@
+body {
+	background: linear-gradient(#9A5044, #E8D9A9) fixed;
+	font-family: monospace;
+	font-size: 18px;
+	color: black;
+	margin: 40px auto;
+	padding: 100px 50px 50px 50px;
+}
+
+table {
+	border-collapse: collapse;
+	border: 2px solid black;
+	width: 40%;
+	text-align: center;
+	background-color: #FDEBD0;
+}
+
+th {
+	border: 2px solid black;
+	background: #A3E4D7; 
+}
+
+td {
+	border: 2px solid black;
+}
+
+td:hover {
+	background: #EB984E; 
+	color: black;
+}
+
+.num {
+	background: #fff;
+    width: 200px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+}
+
+.submit {
+	background: #9A5044;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+}

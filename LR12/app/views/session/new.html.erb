@@ -1,0 +1,23 @@
+<h1>Авторизация</h1>
+
+<%= form_with(:url => session_create_path) do |f| %>
+  <% if flash[:error] %>
+    <p> <%= flash[:error] %> </p>
+  <% end %>
+
+  <div class="field">
+    <%= f.label(:Имя, class: "label") %><br />
+    <%= f.text_field(:name, class: "num") %>
+  </div>
+
+  <div class="field">
+    <%= f.label(:Пароль, class: "label") %><br />
+    <%= f.password_field(:password, class: "num") %>
+  </div>
+    
+  <div class="actions">
+    <%= f.submit("Войти", class: "submit")%>
+  </div>
+<% end %>
+
+<p>Нет аккаута?  <%= link_to "Зарегистрироваться", signup_path %></p>

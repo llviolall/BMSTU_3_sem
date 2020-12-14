@@ -1,0 +1,1597 @@
+Started GET "/" for 127.0.0.1 at 2020-12-11 22:12:41 +0300
+Started GET "/" for 127.0.0.1 at 2020-12-11 22:12:41 +0300
+  [1m[35m (6.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (6.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3.4) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3.4) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3.4) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3.4) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/rails/actions" for 127.0.0.1 at 2020-12-11 22:12:43 +0300
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20201202110044)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "password" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201202110044"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+Migrating to AddPasswordDigestToUser (20201203124243)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "users" ADD "password_digest" varchar[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TEMPORARY TABLE "ausers" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "password" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "password_digest" varchar DEFAULT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "ausers" ("id","name","password","created_at","updated_at","password_digest")
+                     SELECT "id","name","password","created_at","updated_at","password_digest" FROM "users"[0m
+  [1m[35m (0.6ms)[0m  [1m[35mDROP TABLE "users"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "password_digest" varchar DEFAULT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "users" ("id","name","created_at","updated_at","password_digest")
+                     SELECT "id","name","created_at","updated_at","password_digest" FROM "ausers"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "ausers"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201203124243"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-11 19:12:43.834981"], ["updated_at", "2020-12-11 19:12:43.834981"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-12-11 22:12:43 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PalindromeController#input as HTML
+Redirected to http://127.0.0.1:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms | Allocations: 379)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-11 22:12:43 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 34.5ms | Allocations: 5467)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/violakorabelnikova/Desktop/РУБИ/лаб12new/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.2
+Time: 2056ms
+Built at: 2020-12-11 22:12:47
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 4083ms (Views: 4080.3ms | ActiveRecord: 0.0ms | Allocations: 49976)
+
+
+Started POST "/session/create" for 127.0.0.1 at 2020-12-11 22:12:56 +0300
+Processing by SessionController#create as JS
+  Parameters: {"authenticity_token"=>"SV7E/QsHiMyczugc9Nb6lYGQa7bf2ySwo3oxLPpBPp4rmm1R+9cb1pauxZqsm4AfoatCOkWVy1WFtp1xWOy6SA==", "name"=>"ghhgf", "password"=>"[FILTERED]", "commit"=>"Sign in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "ghhgf"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:19:in `create'
+Redirected to http://127.0.0.1:3000/signin
+Completed 200 OK in 15ms (ActiveRecord: 1.0ms | Allocations: 2144)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-11 22:12:56 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1994)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 7850)
+
+
+Started GET "/signup" for 127.0.0.1 at 2020-12-11 22:13:03 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.8ms | Allocations: 1425)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1754)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 21.3ms | ActiveRecord: 0.7ms | Allocations: 10856)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-12-11 22:13:09 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"trEFzjrAP/eE8f+wNlRKPQFs/j+O3beX6vW2cYUjw26hmv8xtrchESEHoV23hLjbBksX6yPq/Fv7heD51pohGw==", "user"=>{"name"=>"aa", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "aa"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 6.2ms | Allocations: 1166)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1248)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 381ms (Views: 15.3ms | ActiveRecord: 0.4ms | Allocations: 11130)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-12-11 22:13:24 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"+u0A1f0FjZlMlVdsnUIE55YoSZM5kBSo5knwzSxJMU+YKal5DdUeg0b1eurFD35tthNgH6Pe+03AhVyQjuS1mQ==", "user"=>{"name"=>"aaaaa", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "aaaaa"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?)[0m  [["name", "aaaaa"], ["created_at", "2020-12-11 19:13:25.107504"], ["updated_at", "2020-12-11 19:13:25.107504"], ["password_digest", "$2a$12$UrXkZczaAHRB8q39b6X9NeNWtFEbYcRFB7Lj/NRum6j/L/NxJN8RC"]]
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+Redirected to http://127.0.0.1:3000/users/1
+Completed 302 Found in 268ms (ActiveRecord: 2.1ms | Allocations: 4008)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2020-12-11 22:13:25 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://127.0.0.1:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 359)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-11 22:13:25 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1990)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 7840)
+
+
+Started POST "/session/create" for 127.0.0.1 at 2020-12-11 22:13:31 +0300
+Processing by SessionController#create as JS
+  Parameters: {"authenticity_token"=>"S9JA7I73PSU/g1SpmFMg7/+hPMovJL12v8XXzxNGdEkpFulAfieuPzXjeS/AHlpl35oVRrVqUpOZCXuSsevwnw==", "name"=>"aaaaa", "password"=>"[FILTERED]", "commit"=>"Sign in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "aaaaa"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:19:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 200 OK in 298ms (ActiveRecord: 0.3ms | Allocations: 1037)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-11 22:13:31 +0300
+Processing by PalindromeController#input as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 1.7ms | Allocations: 426)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 15.5ms | ActiveRecord: 0.3ms | Allocations: 7653)
+
+
+Started GET "/palindrome/view?num=656565&commit=Show+palindromes+from+1+to+num" for 127.0.0.1 at 2020-12-11 22:13:37 +0300
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"656565", "commit"=>"Show palindromes from 1 to num"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 1.5ms | Allocations: 351)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 720ms (Views: 8.3ms | ActiveRecord: 0.2ms | Allocations: 1981654)
+
+
+Started GET "/palindrome/input" for 127.0.0.1 at 2020-12-11 22:13:41 +0300
+Processing by PalindromeController#input as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 221)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 14.7ms | ActiveRecord: 0.2ms | Allocations: 6703)
+
+
+Started GET "/palindrome/view?num=454&commit=Show+palindromes+from+1+to+num" for 127.0.0.1 at 2020-12-11 22:13:43 +0300
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"454", "commit"=>"Show palindromes from 1 to num"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 0.4ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 13.3ms | ActiveRecord: 0.2ms | Allocations: 8124)
+
+
+Started GET "/palindrome/input" for 127.0.0.1 at 2020-12-11 22:13:45 +0300
+Processing by PalindromeController#input as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 220)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 11.2ms | ActiveRecord: 0.5ms | Allocations: 6697)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2020-12-11 22:13:46 +0300
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"E2V7kDb2y7VpwPo3vrzKBhUyBdC5O7uFmGwowd0EgTJxodI8xiZYr2Og17Hm8bCMNQksXCN1VGC+oIScf6kF5A=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 924)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-11 22:13:46 +0300
+Processing by PalindromeController#input as HTML
+Redirected to http://127.0.0.1:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 338)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-11 22:13:46 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1990)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 7834)
+
+
+Started GET "/palindrome/view?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 19:37:35 +0300
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"1000", "commit"=>"Найти"}
+Redirected to http://127.0.0.1:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms | Allocations: 597)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 19:37:35 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 22.8ms | Allocations: 3906)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 242ms (Views: 238.3ms | ActiveRecord: 0.0ms | Allocations: 42454)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-14 20:13:04 +0300
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PalindromeController#input as HTML
+Redirected to http://127.0.0.1:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms | Allocations: 592)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:13:04 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 12.2ms | Allocations: 3857)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 113ms (Views: 108.1ms | ActiveRecord: 0.0ms | Allocations: 26073)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:13:17 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2258)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 34.9ms | ActiveRecord: 0.0ms | Allocations: 8342)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:17:24 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 32.6ms | Allocations: 2218)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 56.5ms | ActiveRecord: 0.0ms | Allocations: 8373)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:18:31 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2275)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 33.7ms | ActiveRecord: 0.0ms | Allocations: 8367)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:18:37 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 10.5ms | Allocations: 2290)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 70ms (Views: 66.2ms | ActiveRecord: 0.0ms | Allocations: 8364)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:18:53 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2289)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 30.3ms | ActiveRecord: 0.0ms | Allocations: 8372)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:19:13 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 8.5ms | Allocations: 2280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 86ms (Views: 82.6ms | ActiveRecord: 0.0ms | Allocations: 8370)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:19:47 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2020)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 74ms (Views: 71.9ms | ActiveRecord: 0.0ms | Allocations: 12284)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:21:50 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 50.3ms | ActiveRecord: 0.0ms | Allocations: 8391)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:22:15 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 49.9ms | Allocations: 3548)
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 0.0ms | Allocations: 4853)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Регистрация</h1>
+
+<%= form_with(:url => session_create_path) do |f| %>
+  <% if flash[:error] %>
+    <p> <%= flash[:error] %> </p>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :Имя %><br />
+    <%= f.text_field (:name, class: "num") %>
+  </div>
+
+  <div class="field">
+    <%= f.label :Пароль %><br />
+    <%= f.password_field (:password, class: "num") %>
+  </div>
+    
+  <div class="actions">
+    <%= f.submit "Войти" %>
+  </div>
+<% end %>
+
+<p>Нет аккаута?  <%= link_to "Зарегистрироваться", signup_path %></p>
+
+):
+1:    <h1>Регистрация</h1>
+2:    
+3:    <%= form_with(:url => session_create_path) do |f| %>
+4:      <% if flash[:error] %>
+5:        <p> <%= flash[:error] %> </p>
+6:      <% end %>
+7:    
+8:      <div class="field">
+9:        <%= f.label :Имя %><br />
+10:        <%= f.text_field (:name, class: "num") %>
+11:      </div>
+12:    
+13:      <div class="field">
+14:        <%= f.label :Пароль %><br />
+15:        <%= f.password_field (:password, class: "num") %>
+16:      </div>
+17:        
+18:      <div class="actions">
+19:        <%= f.submit "Войти" %>
+20:      </div>
+21:    <% end %>
+22:    
+23:    <p>Нет аккаута?  <%= link_to "Зарегистрироваться", signup_path %></p>
+  
+app/views/session/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+app/views/session/new.html.erb:10: syntax error, unexpected ')', expecting `end'
+app/views/session/new.html.erb:15: syntax error, unexpected ',', expecting ')'
+app/views/session/new.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/session/new.html.erb:26: syntax error, unexpected `end', expecting end-of-input
+app/views/session/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+app/views/session/new.html.erb:10: syntax error, unexpected ')', expecting `end'
+app/views/session/new.html.erb:15: syntax error, unexpected ',', expecting ')'
+app/views/session/new.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/session/new.html.erb:26: syntax error, unexpected `end', expecting end-of-input
+app/views/session/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+app/views/session/new.html.erb:10: syntax error, unexpected ')', expecting `end'
+app/views/session/new.html.erb:15: syntax error, unexpected ',', expecting ')'
+app/views/session/new.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/session/new.html.erb:26: syntax error, unexpected `end', expecting end-of-input
+app/views/session/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+app/views/session/new.html.erb:10: syntax error, unexpected ')', expecting `end'
+app/views/session/new.html.erb:15: syntax error, unexpected ',', expecting ')'
+app/views/session/new.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/session/new.html.erb:26: syntax error, unexpected `end', expecting end-of-input
+app/views/session/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+app/views/session/new.html.erb:10: syntax error, unexpected ')', expecting `end'
+app/views/session/new.html.erb:15: syntax error, unexpected ',', expecting ')'
+app/views/session/new.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/session/new.html.erb:26: syntax error, unexpected `end', expecting end-of-input
+app/views/session/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+app/views/session/new.html.erb:10: syntax error, unexpected ')', expecting `end'
+app/views/session/new.html.erb:15: syntax error, unexpected ',', expecting ')'
+app/views/session/new.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/session/new.html.erb:26: syntax error, unexpected `end', expecting end-of-input
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:22:26 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 2323)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms | Allocations: 8495)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:23:25 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 8.1ms | Allocations: 2318)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 94ms (Views: 91.2ms | ActiveRecord: 0.0ms | Allocations: 13484)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:23:30 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2050)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.0ms | Allocations: 13916)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:24:14 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 2332)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 33.4ms | ActiveRecord: 0.0ms | Allocations: 8421)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:25:06 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 2058)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 100ms (Views: 97.3ms | ActiveRecord: 0.0ms | Allocations: 13681)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:25:18 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2052)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 66.7ms | ActiveRecord: 0.0ms | Allocations: 12323)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:25:26 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2053)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms | Allocations: 13556)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:25:32 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2052)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 63ms (Views: 61.3ms | ActiveRecord: 0.0ms | Allocations: 13587)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:25:40 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2053)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 51.2ms | ActiveRecord: 0.0ms | Allocations: 12767)
+
+
+Started POST "/session/create" for 127.0.0.1 at 2020-12-14 20:25:56 +0300
+Processing by SessionController#create as JS
+  Parameters: {"authenticity_token"=>"fYgXtZxdLEca1xw0wsKXa5aDD6RsMBZ7i/aNvGcioe0fTL4ZbI2/XRC3MbKaj+3htrgmKPZ++Z6tOiHhxY8lOw==", "name"=>"", "password"=>"[FILTERED]", "commit"=>"Войти"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", ""], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:19:in `create'
+Redirected to http://127.0.0.1:3000/signin
+Completed 200 OK in 21ms (ActiveRecord: 1.8ms | Allocations: 2740)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:25:56 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 2055)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 7264)
+
+
+Started POST "/session/create" for 127.0.0.1 at 2020-12-14 20:26:07 +0300
+Processing by SessionController#create as JS
+  Parameters: {"authenticity_token"=>"pU5kLB2RueXIqiStoYjajxNLerUrZYb7WiTkqbTS/10YAISdyDX2wERaLbSS3uq+BHVsh5tVwDrDiOa7s5Iuag==", "name"=>"Dasha", "password"=>"[FILTERED]", "commit"=>"Войти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "Dasha"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:19:in `create'
+Redirected to http://127.0.0.1:3000/signin
+Completed 200 OK in 4ms (ActiveRecord: 0.2ms | Allocations: 1130)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:26:07 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2057)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 7243)
+
+
+Started GET "/signup" for 127.0.0.1 at 2020-12-14 20:26:14 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 5.7ms | Allocations: 1441)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1776)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 21.2ms | ActiveRecord: 0.7ms | Allocations: 10325)
+
+
+Started GET "/signup" for 127.0.0.1 at 2020-12-14 20:26:53 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 7.2ms | Allocations: 1277)
+  Rendered users/new.html.erb within layouts/application (Duration: 9.6ms | Allocations: 1602)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 40.5ms | ActiveRecord: 0.0ms | Allocations: 7790)
+
+
+Started GET "/signup" for 127.0.0.1 at 2020-12-14 20:27:18 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 17.3ms | Allocations: 1253)
+  Rendered users/new.html.erb within layouts/application (Duration: 21.0ms | Allocations: 1578)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 49.9ms | ActiveRecord: 0.0ms | Allocations: 7792)
+
+
+Started GET "/signup" for 127.0.0.1 at 2020-12-14 20:28:12 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 5.0ms | Allocations: 1414)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1740)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.0ms | Allocations: 7956)
+
+
+Started GET "/signup" for 127.0.0.1 at 2020-12-14 20:28:27 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 7.5ms | Allocations: 1372)
+  Rendered users/new.html.erb within layouts/application (Duration: 9.4ms | Allocations: 1697)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 0.0ms | Allocations: 7894)
+
+
+Started GET "/signup" for 127.0.0.1 at 2020-12-14 20:31:35 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 5.8ms | Allocations: 1372)
+  Rendered users/new.html.erb within layouts/application (Duration: 8.8ms | Allocations: 1697)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.0ms | Allocations: 7898)
+
+
+Started GET "/signup" for 127.0.0.1 at 2020-12-14 20:34:40 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 6.1ms | Allocations: 1087)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1170)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 104ms (Views: 34.9ms | ActiveRecord: 1.7ms | Allocations: 10145)
+
+
+Started GET "/signup" for 127.0.0.1 at 2020-12-14 20:39:22 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 8.9ms | Allocations: 1263)
+  Rendered users/new.html.erb within layouts/application (Duration: 12.5ms | Allocations: 1594)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 46.9ms | ActiveRecord: 0.0ms | Allocations: 7810)
+
+
+Started GET "/signup" for 127.0.0.1 at 2020-12-14 20:39:35 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 4.9ms | Allocations: 1257)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1583)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 41.7ms | ActiveRecord: 0.0ms | Allocations: 7780)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-12-14 20:39:46 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"gQVhnyX4ZtokO9BlCk2XSyYcxGAKB1fSeCnX/1CAEevjwcgz1Sj1wC5b/eNSAO3BBift7JBJuDde5Xui8i2VPQ==", "user"=>{"name"=>"Dasha", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Создать"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[36mUser Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "Dasha"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?)[0m  [["name", "Dasha"], ["created_at", "2020-12-14 17:39:47.311894"], ["updated_at", "2020-12-14 17:39:47.311894"], ["password_digest", "$2a$12$/0cAtwVRiJyHUdfL/JjjUev7FZbY1M1Be3DCW9nlw99Xq6j2RdgLm"]]
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+Redirected to http://127.0.0.1:3000/users/2
+Completed 302 Found in 348ms (ActiveRecord: 4.4ms | Allocations: 4471)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2020-12-14 20:39:47 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+Redirected to http://127.0.0.1:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 476)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 20:39:47 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 8.9ms | Allocations: 2284)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 8092)
+
+
+Started POST "/session/create" for 127.0.0.1 at 2020-12-14 20:39:52 +0300
+Processing by SessionController#create as JS
+  Parameters: {"authenticity_token"=>"jfP2KtQbHjvPQD4UAdegEKguDxtjMGQCfhID4QoLg8DvN1+GJMuNIcUgE5JZmtqaiBUml/l+i+dY3q+8qKYHFg==", "name"=>"Dasha", "password"=>"[FILTERED]", "commit"=>"Войти"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "Dasha"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:19:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 200 OK in 292ms (ActiveRecord: 0.4ms | Allocations: 1309)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-14 20:39:53 +0300
+Processing by PalindromeController#input as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 2.0ms | Allocations: 475)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 13.5ms | ActiveRecord: 0.3ms | Allocations: 7098)
+
+
+Started GET "/view?num=555&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 20:40:02 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/view"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-12-14 20:40:06 +0300
+Processing by PalindromeController#input as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 264)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 31.9ms | ActiveRecord: 0.2ms | Allocations: 6080)
+
+
+Started GET "/view?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 20:40:24 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/view"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/view?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 20:41:49 +0300
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/view"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/view?num=555&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 20:42:09 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/view"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/view?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 20:44:11 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/view"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/view?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 20:46:28 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/view"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/view?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 20:47:36 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/view"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/view?num=555&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 20:47:44 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/view"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/view?num=555&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 20:48:13 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/view"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-12-14 21:18:31 +0300
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PalindromeController#input as HTML
+Redirected to http://127.0.0.1:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 18ms (ActiveRecord: 0.0ms | Allocations: 3028)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 21:18:31 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 94.7ms | Allocations: 3910)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 252ms (Views: 228.2ms | ActiveRecord: 0.0ms | Allocations: 23980)
+
+
+Started GET "/signup" for 127.0.0.1 at 2020-12-14 21:18:36 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 10.8ms | Allocations: 1450)
+  Rendered users/new.html.erb within layouts/application (Duration: 13.2ms | Allocations: 1786)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 48ms (Views: 29.5ms | ActiveRecord: 1.3ms | Allocations: 11375)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-12-14 21:18:43 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"H5acNs6co3IKgAFaMWarHOQZAdZQdVemHKP2zZglFPWw7U1KFVgOG/+KsPg8u/usrRfjkp0spAHJrAzKXY97SQ==", "user"=>{"name"=>"ddddd", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Создать"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[36mUser Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "ddddd"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?)[0m  [["name", "ddddd"], ["created_at", "2020-12-14 18:18:43.715213"], ["updated_at", "2020-12-14 18:18:43.715213"], ["password_digest", "$2a$12$nd99YWwDlEvqTKlpndYMVufDlAxAmplMmtCc/WczLajcQw4ITPD0W"]]
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+Redirected to http://127.0.0.1:3000/users/3
+Completed 302 Found in 562ms (ActiveRecord: 2.8ms | Allocations: 4764)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2020-12-14 21:18:43 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+Redirected to http://127.0.0.1:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 475)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 21:18:43 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2062)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 7257)
+
+
+Started POST "/session/create" for 127.0.0.1 at 2020-12-14 21:18:47 +0300
+Processing by SessionController#create as JS
+  Parameters: {"authenticity_token"=>"b6P2AXUM2gDoCZsoFOHQYxKyyGY14N6Tuom9t1Or3XEAgmSQAwDRLyb527EPlo4ByfaOoyzYHXI6t5Ds06FTWg==", "name"=>"ddddd", "password"=>"[FILTERED]", "commit"=>"Войти"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "ddddd"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:19:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 200 OK in 324ms (ActiveRecord: 0.7ms | Allocations: 1329)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-14 21:18:48 +0300
+Processing by PalindromeController#input as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 3.0ms | Allocations: 475)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 18.8ms | ActiveRecord: 0.3ms | Allocations: 7031)
+
+
+Started GET "/view?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 21:18:51 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/view"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/view?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 21:22:34 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/view"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/view?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 21:22:36 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/view"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/view?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 21:22:45 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/view"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-12-14 21:22:48 +0300
+Processing by PalindromeController#input as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 3.7ms | Allocations: 470)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 69ms (Views: 34.5ms | ActiveRecord: 2.9ms | Allocations: 11065)
+
+
+Started GET "/palindrome/view?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 21:22:49 +0300
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"1000", "commit"=>"Найти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 2.2ms | Allocations: 312)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 18.4ms | ActiveRecord: 0.2ms | Allocations: 9618)
+
+
+Started GET "/palindrome/input" for 127.0.0.1 at 2020-12-14 21:22:52 +0300
+Processing by PalindromeController#input as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 2.1ms | Allocations: 272)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 41.6ms | ActiveRecord: 0.2ms | Allocations: 6086)
+
+
+Started GET "/palindrome/view?num=555&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 21:22:55 +0300
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"555", "commit"=>"Найти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 0.3ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 15.1ms | ActiveRecord: 0.2ms | Allocations: 7804)
+
+
+Started GET "/palindrome/input" for 127.0.0.1 at 2020-12-14 21:22:56 +0300
+Processing by PalindromeController#input as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 1.3ms | Allocations: 271)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1018ms (Views: 19.2ms | ActiveRecord: 0.3ms | Allocations: 6093)
+
+
+Started GET "/palindrome/view?num=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 21:23:01 +0300
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"5", "commit"=>"Найти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 0.4ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 14.2ms | ActiveRecord: 0.2ms | Allocations: 5944)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2020-12-14 21:23:03 +0300
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Py0xtmlgx2ZEHaYBUwHhWN0O4OKAMLgkLOzbKs6vO8lQDKMnH2zMSYrt5phIdr86BkqmJ5kIe8Ws0vZxTqW14g=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.3ms | Allocations: 1090)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-14 21:23:03 +0300
+Processing by PalindromeController#input as HTML
+Redirected to http://127.0.0.1:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 445)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 21:23:03 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+Started DELETE "/signout" for 127.0.0.1 at 2020-12-14 21:23:06 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  Rendered session/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 2532)
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Py0xtmlgx2ZEHaYBUwHhWN0O4OKAMLgkLOzbKs6vO8lQDKMnH2zMSYrt5phIdr86BkqmJ5kIe8Ws0vZxTqW14g=="}
+Redirected to http://127.0.0.1:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 722)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2687ms (Views: 2682.2ms | ActiveRecord: 0.0ms | Allocations: 10859)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 21:23:06 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2052)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 7224)
+
+
+Started POST "/session/create" for 127.0.0.1 at 2020-12-14 21:23:36 +0300
+Processing by SessionController#create as JS
+  Parameters: {"authenticity_token"=>"w1U7jFnRoxj0Yh2G/zKVYJvKJ+y0umQvIeocaxTNU+GsdKkdL92oNzqSXR/kRcsCQI5hKa2Cp86h1DEwlMfdyg==", "name"=>"ddddd", "password"=>"[FILTERED]", "commit"=>"Войти"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "ddddd"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:8:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 200 OK in 510ms (ActiveRecord: 0.3ms | Allocations: 1280)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-14 21:23:36 +0300
+Processing by PalindromeController#input as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 1.7ms | Allocations: 470)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 275ms (Views: 270.3ms | ActiveRecord: 0.2ms | Allocations: 7201)
+
+
+Started GET "/palindrome/view?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 21:23:40 +0300
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"1000", "commit"=>"Найти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 2.7ms | Allocations: 303)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 15.4ms | ActiveRecord: 0.2ms | Allocations: 9602)
+
+
+Started GET "/palindrome/input" for 127.0.0.1 at 2020-12-14 21:23:41 +0300
+Processing by PalindromeController#input as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 272)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 28.4ms | ActiveRecord: 0.5ms | Allocations: 6095)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2020-12-14 21:23:42 +0300
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"nLkIOZgngGCxZ1lYV65wY38sX1FHOFJaEdFL9HyeA7zzmJqo7iuLT3+XGcFM2S4BpGgZlF4AkbuR72av/JSNlw=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 944ms (ActiveRecord: 0.3ms | Allocations: 1016)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-14 21:23:43 +0300
+Processing by PalindromeController#input as HTML
+Redirected to http://127.0.0.1:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 462)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 21:23:43 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2329)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 8068)
+
+
+Started GET "/signup" for 127.0.0.1 at 2020-12-14 21:24:03 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 22.2ms | Allocations: 1326)
+  Rendered users/new.html.erb within layouts/application (Duration: 50.8ms | Allocations: 1653)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 118ms (Views: 98.0ms | ActiveRecord: 0.0ms | Allocations: 7528)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-12-14 21:24:14 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"EL1IG3mpQhVx7rR6SmkWXVzsAjFDHR/O+CgIFiM4SVK/xplnom3vfITkBdhHtEbtFeLgdY5E7GktJ/IR5pIm7g==", "user"=>{"name"=>"dasha", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Создать"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "dasha"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[36mUser Create (5.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?)[0m  [["name", "dasha"], ["created_at", "2020-12-14 18:24:15.526248"], ["updated_at", "2020-12-14 18:24:15.526248"], ["password_digest", "$2a$12$sVGNFb1AEr6kv74rPQKtuOqBF6NBPA3/8dYSHm2s78Gs8D.hbPkRy"]]
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+Redirected to http://127.0.0.1:3000/users/4
+Completed 302 Found in 939ms (ActiveRecord: 10.9ms | Allocations: 4252)
+
+
+Started GET "/users/4" for 127.0.0.1 at 2020-12-14 21:24:18 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+Redirected to http://127.0.0.1:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 21:24:18 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 2060)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 7261)
+
+
+Started POST "/session/create" for 127.0.0.1 at 2020-12-14 21:24:24 +0300
+Processing by SessionController#create as JS
+  Parameters: {"authenticity_token"=>"xemovA6IgZbtiyMsxkXUvwh+qxzGZEpXRwwPx1Ro+KKqyDoteISKuSN7Y7XdMord0zrt2d9cibbHMiKc1GJ2iQ==", "name"=>"dasha", "password"=>"[FILTERED]", "commit"=>"Войти"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "dasha"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:8:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 200 OK in 572ms (ActiveRecord: 0.3ms | Allocations: 1116)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-14 21:24:24 +0300
+Processing by PalindromeController#input as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 24.8ms | ActiveRecord: 0.3ms | Allocations: 6105)
+
+
+Started GET "/palindrome/view?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 21:24:32 +0300
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"1000", "commit"=>"Найти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 1.1ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 63ms (Views: 52.2ms | ActiveRecord: 0.2ms | Allocations: 9269)
+
+
+Started GET "/palindrome/input" for 127.0.0.1 at 2020-12-14 21:24:37 +0300
+Processing by PalindromeController#input as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/input.html.erb within layouts/application
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 1.9ms | Allocations: 271)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 22.6ms | ActiveRecord: 0.3ms | Allocations: 6090)
+
+
+Started GET "/palindrome/view?num=22&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-12-14 21:24:39 +0300
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"22", "commit"=>"Найти"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 0.5ms | Allocations: 91)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 14.7ms | ActiveRecord: 0.4ms | Allocations: 6030)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2020-12-14 21:24:40 +0300
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"s4AiLyHgEB5MH4iFxJx1nPv5Is1PPmaUU8T3MUSF/fjcobC+V+wbMYLvyBzf6yv+IL1kCFYGpXXT+tpqxI9z0w=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms | Allocations: 1016)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-14 21:24:40 +0300
+Processing by PalindromeController#input as HTML
+Redirected to http://127.0.0.1:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 440)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 21:24:40 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+Started DELETE "/signout" for 127.0.0.1 at 2020-12-14 21:24:43 +0300
+  Rendered session/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2053)
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"s4AiLyHgEB5MH4iFxJx1nPv5Is1PPmaUU8T3MUSF/fjcobC+V+wbMYLvyBzf6yv+IL1kCFYGpXXT+tpqxI9z0w=="}
+Redirected to http://127.0.0.1:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 592)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2838ms (Views: 2836.4ms | ActiveRecord: 0.0ms | Allocations: 9047)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 21:24:43 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2052)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 0.0ms | Allocations: 7225)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 21:25:27 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2335)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 37.2ms | ActiveRecord: 0.0ms | Allocations: 8419)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 21:25:48 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 2058)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 7231)
+
+
+Started GET "/signin" for 127.0.0.1 at 2020-12-14 21:26:38 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 2328)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 44.9ms | ActiveRecord: 0.0ms | Allocations: 8397)
+
+

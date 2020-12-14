@@ -1,0 +1,311 @@
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "palindrome_results"[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE "palindrome_results" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "num" integer, "result" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20201127104046)[0m
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2020-12-14 16:33:04.819728"], ["updated_at", "2020-12-14 16:33:04.819728"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.9ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "schema_sha1"], ["value", "cb4a91471e3e1aa7d5cbe7f3d8633eca279fd660"], ["created_at", "2020-12-14 16:33:04.825847"], ["updated_at", "2020-12-14 16:33:04.825847"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "palindrome_results"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "palindrome_results"[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "palindrome_results" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "num" integer, "result" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCREATE TABLE "palindrome_results" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "num" integer, "result" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20201127104046)[0m
+  [1m[35m (1.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20201127104046)[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2020-12-14 16:33:05.170588"], ["updated_at", "2020-12-14 16:33:05.170588"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2020-12-14 16:33:05.178533"], ["updated_at", "2020-12-14 16:33:05.178533"]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "schema_sha1"], ["value", "cb4a91471e3e1aa7d5cbe7f3d8633eca279fd660"], ["created_at", "2020-12-14 16:33:05.186635"], ["updated_at", "2020-12-14 16:33:05.186635"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "schema_sha1"], ["value", "cb4a91471e3e1aa7d5cbe7f3d8633eca279fd660"], ["created_at", "2020-12-14 16:33:05.196129"], ["updated_at", "2020-12-14 16:33:05.196129"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.7ms)[0m  [1m[31mDELETE FROM "palindrome_results";
+INSERT INTO "palindrome_results" ("id", "num", "result", "created_at", "updated_at") VALUES (980190962, 1, '[1]', '2020-12-14 16:33:05.224470', '2020-12-14 16:33:05.224470')[0m
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------
+PalindromeControllerTest: test_should_get_[1]_for_num_=_1
+---------------------------------------------------------
+  [1m[36mFixtures Load (0.5ms)[0m  [1m[31mDELETE FROM "palindrome_results";
+INSERT INTO "palindrome_results" ("id", "num", "result", "created_at", "updated_at") VALUES (980190962, 1, '[1]', '2020-12-14 16:33:05.239628', '2020-12-14 16:33:05.239628')[0m
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------------------
+PalindromeControllerTest: test_should_get_[1,3,5,7,9]_for_num_=_10
+------------------------------------------------------------------
+Started GET "/palindrome/view?num=1" for 127.0.0.1 at 2020-12-14 19:33:05 +0300
+Started GET "/palindrome/view?num=10" for 127.0.0.1 at 2020-12-14 19:33:05 +0300
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"1"}
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"10"}
+  [1m[36mPalindromeResult Load (0.3ms)[0m  [1m[34mSELECT "palindrome_results".* FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 1], ["LIMIT", 1]]
+  [1m[36mPalindromeResult Load (0.3ms)[0m  [1m[34mSELECT "palindrome_results".* FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 10], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPalindromeResult Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 10], ["LIMIT", 1]]
+  [1m[36mPalindromeResult Create (1.0ms)[0m  [1m[32mINSERT INTO "palindrome_results" ("num", "result", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["num", 10], ["result", "[1,3,5,7,9]"], ["created_at", "2020-12-14 16:33:05.686960"], ["updated_at", "2020-12-14 16:33:05.686960"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 3.3ms | Allocations: 415)
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 2.5ms | Allocations: 431)
+[Webpacker] Compiling...
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/violakorabelnikova/Desktop/РУБИ/лаб11/public/packs-test
+[Webpacker] Hash: 938ecd4dac68dd2bd2ec
+Version: webpack 4.44.2
+Time: 2595ms
+Built at: 2020-12-14 19:33:14
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-31c0a7fd2aa09b742314.js    124 KiB  application  [emitted] [immutable]  application
+js/application-31c0a7fd2aa09b742314.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  384 bytes               [emitted]              
+Entrypoint application = js/application-31c0a7fd2aa09b742314.js js/application-31c0a7fd2aa09b742314.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 9196ms (Views: 9165.6ms | ActiveRecord: 0.3ms | Allocations: 18356)
+[Webpacker] Compiled all packs in /Users/violakorabelnikova/Desktop/РУБИ/лаб11/public/packs-test
+[Webpacker] Hash: 938ecd4dac68dd2bd2ec
+Version: webpack 4.44.2
+Time: 2547ms
+Built at: 2020-12-14 19:33:14
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-31c0a7fd2aa09b742314.js    124 KiB  application  [emitted] [immutable]  application
+js/application-31c0a7fd2aa09b742314.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  384 bytes               [emitted]              
+Entrypoint application = js/application-31c0a7fd2aa09b742314.js js/application-31c0a7fd2aa09b742314.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 9201ms (Views: 9166.8ms | ActiveRecord: 1.9ms | Allocations: 18551)
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+PalindromeControllerTest: test_should_get_input
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+PalindromeControllerTest: test_should_get_view
+----------------------------------------------
+Started GET "/palindrome/input" for 127.0.0.1 at 2020-12-14 19:33:14 +0300
+Started GET "/palindrome/view" for 127.0.0.1 at 2020-12-14 19:33:14 +0300
+Processing by PalindromeController#input as HTML
+  Rendering palindrome/input.html.erb within layouts/application
+Processing by PalindromeController#view as HTML
+  [1m[36mPalindromeResult Load (0.2ms)[0m  [1m[34mSELECT "palindrome_results".* FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 0], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPalindromeResult Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 0], ["LIMIT", 1]]
+  [1m[36mPalindromeResult Create (0.5ms)[0m  [1m[32mINSERT INTO "palindrome_results" ("num", "result", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["num", 0], ["result", "[]"], ["created_at", "2020-12-14 16:33:14.913749"], ["updated_at", "2020-12-14 16:33:14.913749"]]
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 18.9ms | Allocations: 419)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 3370)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 4.8ms | Allocations: 44)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 12.5ms | ActiveRecord: 1.1ms | Allocations: 3502)
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+PalindromeResultTest: test_valid_test
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPalindromeResult Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 10], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+PalindromeResultTest: test_add_and_read_db
+------------------------------------------
+  [1m[36mPalindromeResult Create (1.1ms)[0m  [1m[32mINSERT INTO "palindrome_results" ("num", "result", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["num", 10], ["result", "MyText"], ["created_at", "2020-12-14 16:33:14.969667"], ["updated_at", "2020-12-14 16:33:14.969667"]]
+  [1m[35m (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPalindromeResult Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 10], ["LIMIT", 1]]
+  [1m[36mPalindromeResult Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 10], ["LIMIT", 1]]
+  [1m[36mPalindromeResult Create (0.7ms)[0m  [1m[32mINSERT INTO "palindrome_results" ("num", "result", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["num", 10], ["result", "MyText"], ["created_at", "2020-12-14 16:33:14.974039"], ["updated_at", "2020-12-14 16:33:14.974039"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mPalindromeResult Load (0.1ms)[0m  [1m[34mSELECT "palindrome_results".* FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 10], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (1.9ms)[0m  [1m[31mDELETE FROM "palindrome_results"[0m
+  [1m[36mTruncate Tables (2.0ms)[0m  [1m[31mDELETE FROM "palindrome_results"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.7ms)[0m  [1m[31mDELETE FROM "palindrome_results";
+INSERT INTO "palindrome_results" ("id", "num", "result", "created_at", "updated_at") VALUES (980190962, 1, '[1]', '2020-12-14 18:13:10.192544', '2020-12-14 18:13:10.192544')[0m
+  [1m[36mFixtures Load (0.7ms)[0m  [1m[31mDELETE FROM "palindrome_results";
+INSERT INTO "palindrome_results" ("id", "num", "result", "created_at", "updated_at") VALUES (980190962, 1, '[1]', '2020-12-14 18:13:10.192740', '2020-12-14 18:13:10.192740')[0m
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+PalindromeResultTest: test_valid_test
+-------------------------------------
+------------------------------------------
+PalindromeResultTest: test_add_and_read_db
+------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPalindromeResult Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 10], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPalindromeResult Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 10], ["LIMIT", 1]]
+  [1m[36mPalindromeResult Create (0.8ms)[0m  [1m[32mINSERT INTO "palindrome_results" ("num", "result", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["num", 10], ["result", "MyText"], ["created_at", "2020-12-14 18:13:10.228717"], ["updated_at", "2020-12-14 18:13:10.228717"]]
+  [1m[36mPalindromeResult Create (0.6ms)[0m  [1m[32mINSERT INTO "palindrome_results" ("num", "result", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["num", 10], ["result", "MyText"], ["created_at", "2020-12-14 18:13:10.226166"], ["updated_at", "2020-12-14 18:13:10.226166"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mPalindromeResult Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 10], ["LIMIT", 1]]
+  [1m[36mPalindromeResult Load (0.4ms)[0m  [1m[34mSELECT "palindrome_results".* FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 10], ["LIMIT", 1]]
+  [1m[35m (1.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (2.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------
+PalindromeControllerTest: test_should_get_[1]_for_num_=_1
+---------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------------------
+PalindromeControllerTest: test_should_get_[1,3,5,7,9]_for_num_=_10
+------------------------------------------------------------------
+Started GET "/palindrome/view?num=1" for 127.0.0.1 at 2020-12-14 21:13:10 +0300
+Started GET "/palindrome/view?num=10" for 127.0.0.1 at 2020-12-14 21:13:10 +0300
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"1"}
+Processing by PalindromeController#view as HTML
+  Parameters: {"num"=>"10"}
+  [1m[36mPalindromeResult Load (0.2ms)[0m  [1m[34mSELECT "palindrome_results".* FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 1], ["LIMIT", 1]]
+  [1m[36mPalindromeResult Load (0.5ms)[0m  [1m[34mSELECT "palindrome_results".* FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 10], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPalindromeResult Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 10], ["LIMIT", 1]]
+  [1m[36mPalindromeResult Create (0.9ms)[0m  [1m[32mINSERT INTO "palindrome_results" ("num", "result", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["num", 10], ["result", "[1,3,5,7,9]"], ["created_at", "2020-12-14 18:13:10.554205"], ["updated_at", "2020-12-14 18:13:10.554205"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 4.4ms | Allocations: 355)
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 3.0ms | Allocations: 371)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 115ms (Views: 85.6ms | ActiveRecord: 0.2ms | Allocations: 12611)
+Completed 200 OK in 114ms (Views: 81.3ms | ActiveRecord: 1.7ms | Allocations: 13414)
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+PalindromeControllerTest: test_should_get_input
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+PalindromeControllerTest: test_should_get_view
+----------------------------------------------
+Started GET "/palindrome/input" for 127.0.0.1 at 2020-12-14 21:13:10 +0300
+Started GET "/palindrome/view" for 127.0.0.1 at 2020-12-14 21:13:10 +0300
+Processing by PalindromeController#input as HTML
+Processing by PalindromeController#view as HTML
+  [1m[36mPalindromeResult Load (0.2ms)[0m  [1m[34mSELECT "palindrome_results".* FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 0], ["LIMIT", 1]]
+  Rendering palindrome/input.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mPalindromeResult Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "palindrome_results" WHERE "palindrome_results"."num" = ? LIMIT ?[0m  [["num", 0], ["LIMIT", 1]]
+  Rendered palindrome/input.html.erb within layouts/application (Duration: 2.5ms | Allocations: 420)
+  [1m[36mPalindromeResult Create (2.4ms)[0m  [1m[32mINSERT INTO "palindrome_results" ("num", "result", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["num", 0], ["result", "[]"], ["created_at", "2020-12-14 18:13:10.673467"], ["updated_at", "2020-12-14 18:13:10.673467"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering palindrome/view.html.erb within layouts/application
+  Rendered palindrome/view.html.erb within layouts/application (Duration: 0.3ms | Allocations: 44)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 3371)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 17.9ms | ActiveRecord: 2.9ms | Allocations: 3513)
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m

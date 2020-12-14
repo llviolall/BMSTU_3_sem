@@ -1,0 +1,15 @@
+<h1>Palindrome#view</h1>
+
+
+<p>Все найденные числа: </p>
+<table border="1px" id="result">
+    <% @result.each do |res| %>
+        <tr>
+            <td> <%= res.to_s %> </td>
+            <td> <%= res.to_s(2) %> </td>
+        </tr>
+    <% end %>
+</table>
+<%= link_to "Повторить", :palindrome_input %>
+
+<%= link_to 'Выход', signout_path, method: :delete %>
